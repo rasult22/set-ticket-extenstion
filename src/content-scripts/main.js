@@ -1,8 +1,8 @@
 import { createApp } from "vue";
 import Popup from "./Popup.vue";
-// import "@/styles/main.css";
+import "@/styles/main.css";
 
-const MOUNT_EL_ID = "as-awesome-extension";
+const MOUNT_EL_ID = "kaspi-set-ticket";
 
 let mountEl = document.getElementById(MOUNT_EL_ID);
 if (mountEl) {
